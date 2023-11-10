@@ -32,7 +32,7 @@ if '--nightly' in sys.argv:
 
 project_name = 'tensorflow-examples'
 # Get the current commit hash
-version = subprocess.check_output(['git', 'rev-parse', 'HEAD']).decode('utf-8')
+version = '1.0'
 
 if nightly:
   project_name = 'tensorflow-examples-nightly'
